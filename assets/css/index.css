@@ -21,6 +21,58 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
+.card-micro-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-micro-title p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-bottom-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+}
+
+.card-pricing-new {
+  width: 20.5rem;
+  position: relative;
+  bottom: 0;
+  transition-property: box-shadow, bottom;
+  transition-duration: 0.5s;
+  border-radius: 1rem;
+}
+
+.card-mini-img {
+  width: 120px;
+  height: auto;
+}
+
+.title-card-service {
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.title-card-service h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.content-secondary-card {
+  background-color: #f5faff;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.padding-card-rl {
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.list-group-pricing-new {
+  list-style: none;
+  position: relative;
+  left: 1.4rem;
+}
+
 .card-pricing {
   width: 20.5rem;
   position: relative;
@@ -160,7 +212,7 @@ body {
 }
 
 .lab-back-color:hover {
-  background-color: #6741c0;
+  background-color: #6f46cf;
 }
 
 .lab-back-color:active {
@@ -169,6 +221,11 @@ body {
 
 .button-knowus:active {
   background-color: rgba(51, 94, 234, .1) !important;
+}
+
+.icon-labs {
+  color: #6039bd;
+  font-size: 1.6rem;
 }
 
 .icon-continer {
